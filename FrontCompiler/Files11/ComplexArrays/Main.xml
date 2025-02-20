@@ -1,0 +1,862 @@
+<class>
+  <keyword> class </keyword>
+  <identifier class defined> Main </identifier>
+  <symbol> { </symbol>
+  <subroutineDec>
+    <keyword> function </keyword>
+    <keyword> void </keyword>
+    <identifier subroutine defined> main </identifier>
+    <symbol> ( </symbol>
+    <parameterList>
+    </parameterList>
+    <symbol> ) </symbol>
+    <subroutineBody>
+      <symbol> { </symbol>
+      <varDec>
+        <keyword> var </keyword>
+        <identifier class used> Array </identifier>
+        <identifier var defined var 0> a </identifier>
+        <symbol> , </symbol>
+        <identifier var defined var 1> b </identifier>
+        <symbol> , </symbol>
+        <identifier var defined var 2> c </identifier>
+        <symbol> ; </symbol>
+      </varDec>
+      <statements>
+        <letStatement>
+          <keyword> let </keyword>
+          <identifier var used var 0> a </identifier>
+          <symbol> = </symbol>
+          <expression>
+            <term>
+              <identifier class used> Array </identifier>
+              <symbol> . </symbol>
+              <identifier subroutine used> new </identifier>
+              <symbol> ( </symbol>
+              <expressionList>
+                <expression>
+                  <term>
+                    <integerConstant> 10 </integerConstant>
+                  </term>
+                </expression>
+              </expressionList>
+              <symbol> ) </symbol>
+            </term>
+          </expression>
+          <symbol> ; </symbol>
+        </letStatement>
+        <letStatement>
+          <keyword> let </keyword>
+          <identifier var used var 1> b </identifier>
+          <symbol> = </symbol>
+          <expression>
+            <term>
+              <identifier class used> Array </identifier>
+              <symbol> . </symbol>
+              <identifier subroutine used> new </identifier>
+              <symbol> ( </symbol>
+              <expressionList>
+                <expression>
+                  <term>
+                    <integerConstant> 5 </integerConstant>
+                  </term>
+                </expression>
+              </expressionList>
+              <symbol> ) </symbol>
+            </term>
+          </expression>
+          <symbol> ; </symbol>
+        </letStatement>
+        <letStatement>
+          <keyword> let </keyword>
+          <identifier var used var 2> c </identifier>
+          <symbol> = </symbol>
+          <expression>
+            <term>
+              <identifier class used> Array </identifier>
+              <symbol> . </symbol>
+              <identifier subroutine used> new </identifier>
+              <symbol> ( </symbol>
+              <expressionList>
+                <expression>
+                  <term>
+                    <integerConstant> 1 </integerConstant>
+                  </term>
+                </expression>
+              </expressionList>
+              <symbol> ) </symbol>
+            </term>
+          </expression>
+          <symbol> ; </symbol>
+        </letStatement>
+        <letStatement>
+          <keyword> let </keyword>
+          <identifier var used var 0> a </identifier>
+          <symbol> [ </symbol>
+          <expression>
+            <term>
+              <integerConstant> 3 </integerConstant>
+            </term>
+          </expression>
+          <symbol> ] </symbol>
+          <symbol> = </symbol>
+          <expression>
+            <term>
+              <integerConstant> 2 </integerConstant>
+            </term>
+          </expression>
+          <symbol> ; </symbol>
+        </letStatement>
+        <letStatement>
+          <keyword> let </keyword>
+          <identifier var used var 0> a </identifier>
+          <symbol> [ </symbol>
+          <expression>
+            <term>
+              <integerConstant> 4 </integerConstant>
+            </term>
+          </expression>
+          <symbol> ] </symbol>
+          <symbol> = </symbol>
+          <expression>
+            <term>
+              <integerConstant> 8 </integerConstant>
+            </term>
+          </expression>
+          <symbol> ; </symbol>
+        </letStatement>
+        <letStatement>
+          <keyword> let </keyword>
+          <identifier var used var 0> a </identifier>
+          <symbol> [ </symbol>
+          <expression>
+            <term>
+              <integerConstant> 5 </integerConstant>
+            </term>
+          </expression>
+          <symbol> ] </symbol>
+          <symbol> = </symbol>
+          <expression>
+            <term>
+              <integerConstant> 4 </integerConstant>
+            </term>
+          </expression>
+          <symbol> ; </symbol>
+        </letStatement>
+        <letStatement>
+          <keyword> let </keyword>
+          <identifier var used var 1> b </identifier>
+          <symbol> [ </symbol>
+          <expression>
+            <term>
+              <identifier var used var 0> a </identifier>
+              <symbol> [ </symbol>
+              <expression>
+                <term>
+                  <integerConstant> 3 </integerConstant>
+                </term>
+              </expression>
+              <symbol> ] </symbol>
+            </term>
+          </expression>
+          <symbol> ] </symbol>
+          <symbol> = </symbol>
+          <expression>
+            <term>
+              <identifier var used var 0> a </identifier>
+              <symbol> [ </symbol>
+              <expression>
+                <term>
+                  <integerConstant> 3 </integerConstant>
+                </term>
+              </expression>
+              <symbol> ] </symbol>
+            </term>
+            <symbol> + </symbol>
+            <term>
+              <integerConstant> 3 </integerConstant>
+            </term>
+          </expression>
+          <symbol> ; </symbol>
+        </letStatement>
+        <letStatement>
+          <keyword> let </keyword>
+          <identifier var used var 0> a </identifier>
+          <symbol> [ </symbol>
+          <expression>
+            <term>
+              <identifier var used var 1> b </identifier>
+              <symbol> [ </symbol>
+              <expression>
+                <term>
+                  <identifier var used var 0> a </identifier>
+                  <symbol> [ </symbol>
+                  <expression>
+                    <term>
+                      <integerConstant> 3 </integerConstant>
+                    </term>
+                  </expression>
+                  <symbol> ] </symbol>
+                </term>
+              </expression>
+              <symbol> ] </symbol>
+            </term>
+          </expression>
+          <symbol> ] </symbol>
+          <symbol> = </symbol>
+          <expression>
+            <term>
+              <identifier var used var 0> a </identifier>
+              <symbol> [ </symbol>
+              <expression>
+                <term>
+                  <identifier var used var 0> a </identifier>
+                  <symbol> [ </symbol>
+                  <expression>
+                    <term>
+                      <integerConstant> 5 </integerConstant>
+                    </term>
+                  </expression>
+                  <symbol> ] </symbol>
+                </term>
+              </expression>
+              <symbol> ] </symbol>
+            </term>
+            <symbol> * </symbol>
+            <term>
+              <identifier var used var 1> b </identifier>
+              <symbol> [ </symbol>
+              <expression>
+                <term>
+                  <symbol> ( </symbol>
+                  <expression>
+                    <term>
+                      <symbol> ( </symbol>
+                      <expression>
+                        <term>
+                          <integerConstant> 7 </integerConstant>
+                        </term>
+                        <symbol> - </symbol>
+                        <term>
+                          <identifier var used var 0> a </identifier>
+                          <symbol> [ </symbol>
+                          <expression>
+                            <term>
+                              <integerConstant> 3 </integerConstant>
+                            </term>
+                          </expression>
+                          <symbol> ] </symbol>
+                        </term>
+                      </expression>
+                      <symbol> ) </symbol>
+                    </term>
+                    <symbol> - </symbol>
+                    <term>
+                      <identifier class used> Main </identifier>
+                      <symbol> . </symbol>
+                      <identifier subroutine used> double </identifier>
+                      <symbol> ( </symbol>
+                      <expressionList>
+                        <expression>
+                          <term>
+                            <integerConstant> 2 </integerConstant>
+                          </term>
+                        </expression>
+                      </expressionList>
+                      <symbol> ) </symbol>
+                    </term>
+                  </expression>
+                  <symbol> ) </symbol>
+                </term>
+                <symbol> + </symbol>
+                <term>
+                  <integerConstant> 1 </integerConstant>
+                </term>
+              </expression>
+              <symbol> ] </symbol>
+            </term>
+          </expression>
+          <symbol> ; </symbol>
+        </letStatement>
+        <letStatement>
+          <keyword> let </keyword>
+          <identifier var used var 2> c </identifier>
+          <symbol> [ </symbol>
+          <expression>
+            <term>
+              <integerConstant> 0 </integerConstant>
+            </term>
+          </expression>
+          <symbol> ] </symbol>
+          <symbol> = </symbol>
+          <expression>
+            <term>
+              <keyword> null </keyword>
+            </term>
+          </expression>
+          <symbol> ; </symbol>
+        </letStatement>
+        <letStatement>
+          <keyword> let </keyword>
+          <identifier var used var 2> c </identifier>
+          <symbol> = </symbol>
+          <expression>
+            <term>
+              <identifier var used var 2> c </identifier>
+              <symbol> [ </symbol>
+              <expression>
+                <term>
+                  <integerConstant> 0 </integerConstant>
+                </term>
+              </expression>
+              <symbol> ] </symbol>
+            </term>
+          </expression>
+          <symbol> ; </symbol>
+        </letStatement>
+        <doStatement>
+          <keyword> do </keyword>
+          <identifier class used> Output </identifier>
+          <symbol> . </symbol>
+          <identifier subroutine used> printString </identifier>
+          <symbol> ( </symbol>
+          <expressionList>
+            <expression>
+              <term>
+                <stringConstant> Test 1: expected result: 5; actual result:  </stringConstant>
+              </term>
+            </expression>
+          </expressionList>
+          <symbol> ) </symbol>
+          <symbol> ; </symbol>
+        </doStatement>
+        <doStatement>
+          <keyword> do </keyword>
+          <identifier class used> Output </identifier>
+          <symbol> . </symbol>
+          <identifier subroutine used> printInt </identifier>
+          <symbol> ( </symbol>
+          <expressionList>
+            <expression>
+              <term>
+                <identifier var used var 1> b </identifier>
+                <symbol> [ </symbol>
+                <expression>
+                  <term>
+                    <integerConstant> 2 </integerConstant>
+                  </term>
+                </expression>
+                <symbol> ] </symbol>
+              </term>
+            </expression>
+          </expressionList>
+          <symbol> ) </symbol>
+          <symbol> ; </symbol>
+        </doStatement>
+        <doStatement>
+          <keyword> do </keyword>
+          <identifier class used> Output </identifier>
+          <symbol> . </symbol>
+          <identifier subroutine used> println </identifier>
+          <symbol> ( </symbol>
+          <expressionList>
+          </expressionList>
+          <symbol> ) </symbol>
+          <symbol> ; </symbol>
+        </doStatement>
+        <doStatement>
+          <keyword> do </keyword>
+          <identifier class used> Output </identifier>
+          <symbol> . </symbol>
+          <identifier subroutine used> printString </identifier>
+          <symbol> ( </symbol>
+          <expressionList>
+            <expression>
+              <term>
+                <stringConstant> Test 2: expected result: 40; actual result:  </stringConstant>
+              </term>
+            </expression>
+          </expressionList>
+          <symbol> ) </symbol>
+          <symbol> ; </symbol>
+        </doStatement>
+        <doStatement>
+          <keyword> do </keyword>
+          <identifier class used> Output </identifier>
+          <symbol> . </symbol>
+          <identifier subroutine used> printInt </identifier>
+          <symbol> ( </symbol>
+          <expressionList>
+            <expression>
+              <term>
+                <identifier var used var 0> a </identifier>
+                <symbol> [ </symbol>
+                <expression>
+                  <term>
+                    <integerConstant> 5 </integerConstant>
+                  </term>
+                </expression>
+                <symbol> ] </symbol>
+              </term>
+            </expression>
+          </expressionList>
+          <symbol> ) </symbol>
+          <symbol> ; </symbol>
+        </doStatement>
+        <doStatement>
+          <keyword> do </keyword>
+          <identifier class used> Output </identifier>
+          <symbol> . </symbol>
+          <identifier subroutine used> println </identifier>
+          <symbol> ( </symbol>
+          <expressionList>
+          </expressionList>
+          <symbol> ) </symbol>
+          <symbol> ; </symbol>
+        </doStatement>
+        <doStatement>
+          <keyword> do </keyword>
+          <identifier class used> Output </identifier>
+          <symbol> . </symbol>
+          <identifier subroutine used> printString </identifier>
+          <symbol> ( </symbol>
+          <expressionList>
+            <expression>
+              <term>
+                <stringConstant> Test 3: expected result: 0; actual result:  </stringConstant>
+              </term>
+            </expression>
+          </expressionList>
+          <symbol> ) </symbol>
+          <symbol> ; </symbol>
+        </doStatement>
+        <doStatement>
+          <keyword> do </keyword>
+          <identifier class used> Output </identifier>
+          <symbol> . </symbol>
+          <identifier subroutine used> printInt </identifier>
+          <symbol> ( </symbol>
+          <expressionList>
+            <expression>
+              <term>
+                <identifier var used var 2> c </identifier>
+              </term>
+            </expression>
+          </expressionList>
+          <symbol> ) </symbol>
+          <symbol> ; </symbol>
+        </doStatement>
+        <doStatement>
+          <keyword> do </keyword>
+          <identifier class used> Output </identifier>
+          <symbol> . </symbol>
+          <identifier subroutine used> println </identifier>
+          <symbol> ( </symbol>
+          <expressionList>
+          </expressionList>
+          <symbol> ) </symbol>
+          <symbol> ; </symbol>
+        </doStatement>
+        <letStatement>
+          <keyword> let </keyword>
+          <identifier var used var 2> c </identifier>
+          <symbol> = </symbol>
+          <expression>
+            <term>
+              <keyword> null </keyword>
+            </term>
+          </expression>
+          <symbol> ; </symbol>
+        </letStatement>
+        <ifStatement>
+          <keyword> if </keyword>
+          <symbol> ( </symbol>
+          <expression>
+            <term>
+              <identifier var used var 2> c </identifier>
+            </term>
+            <symbol> = </symbol>
+            <term>
+              <keyword> null </keyword>
+            </term>
+          </expression>
+          <symbol> ) </symbol>
+          <symbol> { </symbol>
+          <statements>
+            <doStatement>
+              <keyword> do </keyword>
+              <identifier class used> Main </identifier>
+              <symbol> . </symbol>
+              <identifier subroutine used> fill </identifier>
+              <symbol> ( </symbol>
+              <expressionList>
+                <expression>
+                  <term>
+                    <identifier var used var 0> a </identifier>
+                  </term>
+                </expression>
+                <symbol> , </symbol>
+                <expression>
+                  <term>
+                    <integerConstant> 10 </integerConstant>
+                  </term>
+                </expression>
+              </expressionList>
+              <symbol> ) </symbol>
+              <symbol> ; </symbol>
+            </doStatement>
+            <letStatement>
+              <keyword> let </keyword>
+              <identifier var used var 2> c </identifier>
+              <symbol> = </symbol>
+              <expression>
+                <term>
+                  <identifier var used var 0> a </identifier>
+                  <symbol> [ </symbol>
+                  <expression>
+                    <term>
+                      <integerConstant> 3 </integerConstant>
+                    </term>
+                  </expression>
+                  <symbol> ] </symbol>
+                </term>
+              </expression>
+              <symbol> ; </symbol>
+            </letStatement>
+            <letStatement>
+              <keyword> let </keyword>
+              <identifier var used var 2> c </identifier>
+              <symbol> [ </symbol>
+              <expression>
+                <term>
+                  <integerConstant> 1 </integerConstant>
+                </term>
+              </expression>
+              <symbol> ] </symbol>
+              <symbol> = </symbol>
+              <expression>
+                <term>
+                  <integerConstant> 33 </integerConstant>
+                </term>
+              </expression>
+              <symbol> ; </symbol>
+            </letStatement>
+            <letStatement>
+              <keyword> let </keyword>
+              <identifier var used var 2> c </identifier>
+              <symbol> = </symbol>
+              <expression>
+                <term>
+                  <identifier var used var 0> a </identifier>
+                  <symbol> [ </symbol>
+                  <expression>
+                    <term>
+                      <integerConstant> 7 </integerConstant>
+                    </term>
+                  </expression>
+                  <symbol> ] </symbol>
+                </term>
+              </expression>
+              <symbol> ; </symbol>
+            </letStatement>
+            <letStatement>
+              <keyword> let </keyword>
+              <identifier var used var 2> c </identifier>
+              <symbol> [ </symbol>
+              <expression>
+                <term>
+                  <integerConstant> 1 </integerConstant>
+                </term>
+              </expression>
+              <symbol> ] </symbol>
+              <symbol> = </symbol>
+              <expression>
+                <term>
+                  <integerConstant> 77 </integerConstant>
+                </term>
+              </expression>
+              <symbol> ; </symbol>
+            </letStatement>
+            <letStatement>
+              <keyword> let </keyword>
+              <identifier var used var 1> b </identifier>
+              <symbol> = </symbol>
+              <expression>
+                <term>
+                  <identifier var used var 0> a </identifier>
+                  <symbol> [ </symbol>
+                  <expression>
+                    <term>
+                      <integerConstant> 3 </integerConstant>
+                    </term>
+                  </expression>
+                  <symbol> ] </symbol>
+                </term>
+              </expression>
+              <symbol> ; </symbol>
+            </letStatement>
+            <letStatement>
+              <keyword> let </keyword>
+              <identifier var used var 1> b </identifier>
+              <symbol> [ </symbol>
+              <expression>
+                <term>
+                  <integerConstant> 1 </integerConstant>
+                </term>
+              </expression>
+              <symbol> ] </symbol>
+              <symbol> = </symbol>
+              <expression>
+                <term>
+                  <identifier var used var 1> b </identifier>
+                  <symbol> [ </symbol>
+                  <expression>
+                    <term>
+                      <integerConstant> 1 </integerConstant>
+                    </term>
+                  </expression>
+                  <symbol> ] </symbol>
+                </term>
+                <symbol> + </symbol>
+                <term>
+                  <identifier var used var 2> c </identifier>
+                  <symbol> [ </symbol>
+                  <expression>
+                    <term>
+                      <integerConstant> 1 </integerConstant>
+                    </term>
+                  </expression>
+                  <symbol> ] </symbol>
+                </term>
+              </expression>
+              <symbol> ; </symbol>
+            </letStatement>
+          </statements>
+          <symbol> } </symbol>
+        </ifStatement>
+        <doStatement>
+          <keyword> do </keyword>
+          <identifier class used> Output </identifier>
+          <symbol> . </symbol>
+          <identifier subroutine used> printString </identifier>
+          <symbol> ( </symbol>
+          <expressionList>
+            <expression>
+              <term>
+                <stringConstant> Test 4: expected result: 77; actual result:  </stringConstant>
+              </term>
+            </expression>
+          </expressionList>
+          <symbol> ) </symbol>
+          <symbol> ; </symbol>
+        </doStatement>
+        <doStatement>
+          <keyword> do </keyword>
+          <identifier class used> Output </identifier>
+          <symbol> . </symbol>
+          <identifier subroutine used> printInt </identifier>
+          <symbol> ( </symbol>
+          <expressionList>
+            <expression>
+              <term>
+                <identifier var used var 2> c </identifier>
+                <symbol> [ </symbol>
+                <expression>
+                  <term>
+                    <integerConstant> 1 </integerConstant>
+                  </term>
+                </expression>
+                <symbol> ] </symbol>
+              </term>
+            </expression>
+          </expressionList>
+          <symbol> ) </symbol>
+          <symbol> ; </symbol>
+        </doStatement>
+        <doStatement>
+          <keyword> do </keyword>
+          <identifier class used> Output </identifier>
+          <symbol> . </symbol>
+          <identifier subroutine used> println </identifier>
+          <symbol> ( </symbol>
+          <expressionList>
+          </expressionList>
+          <symbol> ) </symbol>
+          <symbol> ; </symbol>
+        </doStatement>
+        <doStatement>
+          <keyword> do </keyword>
+          <identifier class used> Output </identifier>
+          <symbol> . </symbol>
+          <identifier subroutine used> printString </identifier>
+          <symbol> ( </symbol>
+          <expressionList>
+            <expression>
+              <term>
+                <stringConstant> Test 5: expected result: 110; actual result:  </stringConstant>
+              </term>
+            </expression>
+          </expressionList>
+          <symbol> ) </symbol>
+          <symbol> ; </symbol>
+        </doStatement>
+        <doStatement>
+          <keyword> do </keyword>
+          <identifier class used> Output </identifier>
+          <symbol> . </symbol>
+          <identifier subroutine used> printInt </identifier>
+          <symbol> ( </symbol>
+          <expressionList>
+            <expression>
+              <term>
+                <identifier var used var 1> b </identifier>
+                <symbol> [ </symbol>
+                <expression>
+                  <term>
+                    <integerConstant> 1 </integerConstant>
+                  </term>
+                </expression>
+                <symbol> ] </symbol>
+              </term>
+            </expression>
+          </expressionList>
+          <symbol> ) </symbol>
+          <symbol> ; </symbol>
+        </doStatement>
+        <doStatement>
+          <keyword> do </keyword>
+          <identifier class used> Output </identifier>
+          <symbol> . </symbol>
+          <identifier subroutine used> println </identifier>
+          <symbol> ( </symbol>
+          <expressionList>
+          </expressionList>
+          <symbol> ) </symbol>
+          <symbol> ; </symbol>
+        </doStatement>
+        <returnStatement>
+          <keyword> return </keyword>
+          <symbol> ; </symbol>
+        </returnStatement>
+      </statements>
+      <symbol> } </symbol>
+    </subroutineBody>
+  </subroutineDec>
+  <subroutineDec>
+    <keyword> function </keyword>
+    <keyword> int </keyword>
+    <identifier subroutine defined> double </identifier>
+    <symbol> ( </symbol>
+    <parameterList>
+      <keyword> int </keyword>
+      <identifier argument used argument 0> a </identifier>
+    </parameterList>
+    <symbol> ) </symbol>
+    <subroutineBody>
+      <symbol> { </symbol>
+      <statements>
+        <returnStatement>
+          <keyword> return </keyword>
+          <expression>
+            <term>
+              <identifier argument used argument 0> a </identifier>
+            </term>
+            <symbol> * </symbol>
+            <term>
+              <integerConstant> 2 </integerConstant>
+            </term>
+          </expression>
+          <symbol> ; </symbol>
+        </returnStatement>
+      </statements>
+      <symbol> } </symbol>
+    </subroutineBody>
+  </subroutineDec>
+  <subroutineDec>
+    <keyword> function </keyword>
+    <keyword> void </keyword>
+    <identifier subroutine defined> fill </identifier>
+    <symbol> ( </symbol>
+    <parameterList>
+      <identifier class used> Array </identifier>
+      <identifier argument used argument 0> a </identifier>
+      <symbol> , </symbol>
+      <keyword> int </keyword>
+      <identifier argument used argument 1> size </identifier>
+    </parameterList>
+    <symbol> ) </symbol>
+    <subroutineBody>
+      <symbol> { </symbol>
+      <statements>
+        <whileStatement>
+          <keyword> while </keyword>
+          <symbol> ( </symbol>
+          <expression>
+            <term>
+              <identifier argument used argument 1> size </identifier>
+            </term>
+            <symbol> &gt; </symbol>
+            <term>
+              <integerConstant> 0 </integerConstant>
+            </term>
+          </expression>
+          <symbol> ) </symbol>
+          <symbol> { </symbol>
+          <statements>
+            <letStatement>
+              <keyword> let </keyword>
+              <identifier argument used argument 1> size </identifier>
+              <symbol> = </symbol>
+              <expression>
+                <term>
+                  <identifier argument used argument 1> size </identifier>
+                </term>
+                <symbol> - </symbol>
+                <term>
+                  <integerConstant> 1 </integerConstant>
+                </term>
+              </expression>
+              <symbol> ; </symbol>
+            </letStatement>
+            <letStatement>
+              <keyword> let </keyword>
+              <identifier argument used argument 0> a </identifier>
+              <symbol> [ </symbol>
+              <expression>
+                <term>
+                  <identifier argument used argument 1> size </identifier>
+                </term>
+              </expression>
+              <symbol> ] </symbol>
+              <symbol> = </symbol>
+              <expression>
+                <term>
+                  <identifier class used> Array </identifier>
+                  <symbol> . </symbol>
+                  <identifier subroutine used> new </identifier>
+                  <symbol> ( </symbol>
+                  <expressionList>
+                    <expression>
+                      <term>
+                        <integerConstant> 3 </integerConstant>
+                      </term>
+                    </expression>
+                  </expressionList>
+                  <symbol> ) </symbol>
+                </term>
+              </expression>
+              <symbol> ; </symbol>
+            </letStatement>
+          </statements>
+          <symbol> } </symbol>
+        </whileStatement>
+        <returnStatement>
+          <keyword> return </keyword>
+          <symbol> ; </symbol>
+        </returnStatement>
+      </statements>
+      <symbol> } </symbol>
+    </subroutineBody>
+  </subroutineDec>
+  <symbol> } </symbol>
+</class>

@@ -1,0 +1,5 @@
+function Main.main 4
+call Output.printString 1
+call Output.printInt 1
+call Output.println 1
+return

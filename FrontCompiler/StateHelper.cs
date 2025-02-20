@@ -188,4 +188,55 @@ public static class StateHelper
 
         return "";
     }
+
+    public static string GetKindName(SymbolTable.Kind kind)
+    {
+        switch (kind)
+        {
+            case SymbolTable.Kind.STATIC:
+                return "static";
+            case SymbolTable.Kind.FIELD:
+                return "field";
+            case SymbolTable.Kind.ARG:
+                return "argument";
+            case SymbolTable.Kind.VAR:
+                return "var";
+        }
+
+        return "";
+    }
+
+    public static SymbolTable.Kind GetKindFromName(string name)
+    {
+        switch (name)
+        {
+            case "static":
+                return SymbolTable.Kind.STATIC;
+            case "field":
+                return SymbolTable.Kind.FIELD;
+            case "argument":
+                return SymbolTable.Kind.ARG;
+            case "var":
+                return SymbolTable.Kind.VAR;
+        }
+        return SymbolTable.Kind.ELSE;
+    }
+
+    public static VMWriter.Segment GetSegmentFromKind(SymbolTable.Kind kind)
+    {
+        switch (kind)
+        {
+            case SymbolTable.Kind.STATIC:
+                return VMWriter.Segment.STATIC;
+            case SymbolTable.Kind.FIELD:
+                return VMWriter.Segment.THIS;
+            case SymbolTable.Kind.ARG:
+                return VMWriter.Segment.ARG;
+            case SymbolTable.Kind.VAR:
+                return VMWriter.Segment.LOCAL;
+            case SymbolTable.Kind.ELSE:
+                return VMWriter.Segment.LOCAL;
+        }
+        return VMWriter.Segment.LOCAL;
+    }
 }

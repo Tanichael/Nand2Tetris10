@@ -1,0 +1,6 @@
+function Main.main 1
+call game.run 1
+call game.dispose 1
+return
+function Main.more 4
+return
