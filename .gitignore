@@ -7,6 +7,10 @@
 # or wget:
 # wget --no-check-certificate http://gist.githubusercontent.com/kmorcinek/2710267/raw/.gitignore
 
+FrontCompiler/Files
+FrontCOmpiler/TestFiles
+FrontCompiler/Files11
+
 # User-specific files
 *.suo
 *.user
